@@ -6,6 +6,6 @@
 - Server's properties can be modified via book.go file
 - You can use the commands shown below:
   - -list 
-  - -search=<ID>
-  - -delete=<ID>
-  - -buy:<Name of the Book> -amount=<Amount>
+  - -search= {ID} 
+  - -delete={ID} 
+  - -buy:{Name of the Book} -amount={Amount}
