@@ -43,11 +43,11 @@ func main() {
 
 	//models.GetBooksByID(4)
 
-	listing := flag.Bool("list", false, "")
-	searching := flag.Int("search", 0, "")
-	deleting := flag.String("delete", "", "")
-	purchasing := flag.String("buy", "", "")
-	stocking := flag.Int("amount", 0, "")
+	listing := flag.Bool("list", false, "list the all books")
+	searching := flag.Int("search", 0, "search the book if it has this ID")
+	deleting := flag.String("delete", "", "delete the book if it has this ID")
+	purchasing := flag.String("buy", "", "buy the book if it has this ID")
+	stocking := flag.Int("amount", 0, "give the amount of book that you want to buy")
 
 	flag.Parse()
 
